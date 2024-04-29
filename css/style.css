@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------
-* Project:        Gautama
+* Project:        Pheonix
 * Author:         CN-InfoTech
 * URL:            hthttps://themeforest.net/user/cn-infotech
 * Created:        01/14/2020
@@ -738,13 +738,11 @@ header.main_header_area.headerstyle-2 .slicknav_nav{top: 74px;}
 }
 
 .header_menu .navbar.navbar-default .navbar-header .navbar-brand {
-  padding:20px 0 10px 0px;
+
   margin-left: 0;
 }
 
-header.main_header_area.headerstyle-2 .header_menu .navbar.navbar-default .navbar-header .navbar-brand{
-  padding: 21px 0;
-}
+
 
 .header_menu .navbar.navbar-default .navbar-collapse {
   text-align: right;
@@ -5987,3 +5985,23 @@ section.events .meta span {
 .night-mode .comment-box textarea{background: #000; color: #fff;}
 
 .night-mode section.related-rooms {background: #161616;}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:80px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
