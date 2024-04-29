@@ -176,7 +176,11 @@ h6 {
 }
 
 @media(max-width: 991px){
-  h2{font-size: 28px;}
+  h2{font-size: 28px;
+ }
+ .jee{
+  margin-top: 60px;
+ }
 }
 
 @media(max-width: 735px){

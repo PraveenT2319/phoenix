@@ -4403,7 +4403,7 @@ section.menu.lunch .menu-item {
 @media(max-width: 567px){
   .row.isotopeSelector{margin: 0; text-align: center;}
 
-  .menu-image, .menu-image img, .menu-content, .menu-content span{ padding: 0; position: relative; display: inline-block;}
+  .menu-image, .menu-image img, .menu-content, .menu-content span{width: 100%; padding: 0; opacity: 90%; position: relative; display: inline-block;}
 
   .menu-content span{padding: 5px;}
 
@@ -4412,6 +4412,9 @@ section.menu.lunch .menu-item {
   .menu-image{margin-bottom: 15px;}
 
   .special-image{padding: 0;}
+}
+.menu-image img{
+  filter: contrast(120%) brightness(80%) saturate(180%);
 }
 
 /* ========================================= */
