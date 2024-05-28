@@ -468,12 +468,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed an issue where file extensions with uppercase characters were treated as invalid #TINY-6940
 - Fixed dialog block messages were not passed through TinyMCE's translation system #TINY-6971
 
-## 5.6.2 - 2020-12-08
+## 5.6.2 -2024-12-08
 
 ### Fixed
 - Fixed a UI rendering regression when the document body is using `display: flex` #TINY-6783
 
-## 5.6.1 - 2020-11-25
+## 5.6.1 -2024-11-25
 
 ### Fixed
 - Fixed the `mceTableRowType` and `mceTableCellType` commands were not firing the `newCell` event #TINY-6692
@@ -481,7 +481,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed an issue where copying and pasting table columns resulted in invalid HTML when using colgroups #TINY-6684
 - Fixed an issue where the toolbar would render with the wrong width for inline editors in some situations #TINY-6683
 
-## 5.6.0 - 2020-11-18
+## 5.6.0 -2024-11-18
 
 ### Added
 - Added new `BeforeOpenNotification` and `OpenNotification` events which allow internal notifications to be captured and modified before display #TINY-6528
@@ -530,13 +530,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed a regression that caused the selection to be difficult to see in tables with backgrounds #TINY-6495
 - Fixed content pasted multiple times in the editor when using Microsoft Internet Explorer 11. Patch contributed by mattford #GH-4905
 
-## 5.5.1 - 2020-10-01
+## 5.5.1 -2024-10-01
 
 ### Fixed
 - Fixed pressing the down key near the end of a document incorrectly raising an exception #TINY-6471
 - Fixed incorrect Typescript types for the `Tools` API #TINY-6475
 
-## 5.5.0 - 2020-09-29
+## 5.5.0 -2024-09-29
 
 ### Added
 - Added a TypeScript declaration file to the bundle output for TinyMCE core #TINY-3785
@@ -591,7 +591,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed `editor.selection.setCursorLocation` incorrectly placing the cursor outside `pre` elements in some circumstances #TINY-4058
 - Fixed an exception being thrown when pressing the enter key inside pre elements while `br_in_pre` setting is false #TINY-4058
 
-## 5.4.2 - 2020-08-17
+## 5.4.2 -2024-08-17
 
 ### Fixed
 - Fixed the editor not resizing when resizing the browser window in fullscreen mode #TINY-3511
@@ -608,7 +608,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed the list type style not retained when copying list items #TINY-6289
 - Fixed the Paste plugin converting tabs in plain text to a single space character. A `paste_tab_spaces` option has been included for setting the number of spaces used to replace a tab character #TINY-6237
 
-## 5.4.1 - 2020-07-08
+## 5.4.1 -2024-07-08
 
 ### Fixed
 - Fixed the Search and Replace plugin incorrectly including zero-width caret characters in search results #TINY-4599
@@ -618,7 +618,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed Oxide checklist styles not showing when printing #TINY-5139
 - Fixed bug with `scope` attribute not being added to the cells of header rows #TINY-6206
 
-## 5.4.0 - 2020-06-30
+## 5.4.0 -2024-06-30
 
 ### Added
 - Added keyboard navigation support to menus and toolbars when the editor is in a ShadowRoot #TINY-6152
@@ -660,18 +660,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed the `link` plugin now suggest `mailto:` when the text contains an '@' and no slashes (`/`) #TINY-5941
 - Fixed the `valid_children` check of custom elements now allows a wider range of characters in names #TINY-5971
 
-## 5.3.2 - 2020-06-10
+## 5.3.2 -2024-06-10
 
 ### Fixed
 - Fixed a regression introduced in 5.3.0, where `images_dataimg_filter` was no-longer called #TINY-6086
 
-## 5.3.1 - 2020-05-27
+## 5.3.1 -2024-05-27
 
 ### Fixed
 - Fixed the image upload error alert also incorrectly closing the image dialog #TINY-6020
 - Fixed editor content scrolling incorrectly on focus in Firefox by reverting default content CSS html and body heights added in 5.3.0 #TINY-6019
 
-## 5.3.0 - 2020-05-21
+## 5.3.0 -2024-05-21
 
 ### Added
 - Added html and body height styles to the default oxide content CSS #TINY-5978
@@ -714,7 +714,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed a regression introduced in 5.2.0 whereby the desktop `toolbar_mode` setting would incorrectly override the mobile default setting #TINY-5998
 - Fixed an issue where deleting all content in a single cell table would delete the entire table #TINY-1044
 
-## 5.2.2 - 2020-04-23
+## 5.2.2 -2024-04-23
 
 ### Fixed
 - Fixed an issue where anchors could not be inserted on empty lines #TINY-2788
@@ -723,7 +723,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed the floating toolbar drawer height collapsing when the editor is rendered in modal dialogs or floating containers #TINY-4837
 - Fixed `media` embed content not processing safely in some cases #TINY-4857
 
-## 5.2.1 - 2020-03-25
+## 5.2.1 -2024-03-25
 
 ### Fixed
 - Fixed the "is decorative" checkbox in the image dialog clearing after certain dialog events #FOAM-11
@@ -745,7 +745,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed an issue where removing the background color of text did not always work #TINY-4770
 - Fixed an issue where new rows and columns in a table did not retain the style of the previous row or column #TINY-4788
 
-## 5.2.0 - 2020-02-13
+## 5.2.0 -2024-02-13
 
 ### Added
 - Added the ability to apply formats to spaces #TINY-4200
@@ -802,7 +802,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed keyboard flicker when opening a context menu on mobile #TINY-4540
 - Fixed issue where plus icon svg contained strokes #TINY-4681
 
-## 5.1.6 - 2020-01-28
+## 5.1.6 -2024-01-28
 
 ### Fixed
 - Fixed `readonly` mode not blocking all clicked links #TINY-4572
@@ -1417,21 +1417,21 @@ Developer preview 1
 
 Initial list of features and changes is available at https://www.tiny.cloud/docs/tinymce/5/release-notes/release-notes50/
 
-## 4.9.11 - 2020-07-13
+## 4.9.11 -2024-07-13
 
 ### Fixed
 - Fixed the `selection.setContent()` API not running parser filters #TINY-4002
 - Fixed content in an iframe element parsing as DOM elements instead of text content #TINY-5943
 - Fixed up and down keyboard navigation not working for inline `contenteditable="false"` elements #TINY-6226
 
-## 4.9.10 - 2020-04-23
+## 4.9.10 -2024-04-23
 
 ### Fixed
 - Fixed an issue where the editor selection could end up inside a short ended element (eg br) #TINY-3999
 - Fixed a security issue related to CDATA sanitization during parsing #TINY-4669
 - Fixed `media` embed content not processing safely in some cases #TINY-4857
 
-## 4.9.9 - 2020-03-25
+## 4.9.9 -2024-03-25
 
 ### Fixed
 - Fixed the table selection not functioning correctly in Microsoft Edge 44 or higher #TINY-3862
@@ -1439,7 +1439,7 @@ Initial list of features and changes is available at https://www.tiny.cloud/docs
 - Fixed the `forced_root_block_attrs` setting not applying attributes to new blocks consistently #TINY-4564
 - Fixed the editor failing to initialize if a script tag was used inside an SVG #TINY-4087
 
-## 4.9.8 - 2020-01-28
+## 4.9.8 -2024-01-28
 
 ### Fixed
 - Fixed the `mobile` theme failing to load due to a bundling issue #TINY-4613
