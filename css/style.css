@@ -4403,7 +4403,7 @@ section.menu.lunch .menu-item {
 @media(max-width: 567px){
   .row.isotopeSelector{margin: 0; text-align: center;}
 
-  .menu-image, .menu-image img, .menu-content, .menu-content span{width: 100%; padding: 0; opacity: 90%; position: relative; display: inline-block;}
+  .menu-image, .menu-image img, .menu-content, .menu-content span{ padding: 0; opacity: 90%; position: relative; }
 
   .menu-content span{padding: 5px;}
 
